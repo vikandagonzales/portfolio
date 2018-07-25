@@ -1,45 +1,25 @@
 // FONTS
-$family-sans-serif: "Work Sans", sans-serif;
+$family-sans-serif: "Karla", sans-serif;
+$heading-sans-serif: "Montserrat", sans-serif;
 
-// COLORS
-$slate: #f0f1f6;
-$quartz: #9295a5;
-$stone: #76757b;
-$ash: #333333;
-$mist: #e2e4f0;
-$lavender: #d9def1;
-$periwinkle: #bbc3dd;
-$indigo: #636fa6;
-$koamaru: #21242d;
-$green: #83bf8a;
-$yellow: #ebcd6f;
-$red: #d66667;
+// COLOR SCHEME
 
-$primary: $indigo;
-$link: $primary;
+$coral: #e66262;
+$pink: #f69697;
 
-// HEADER
-$navbar-height: 5rem;
-$navbar-item-img-max-height: 2.75rem;
-$navbar-item-color: $quartz;
-$navbar-dropdown-arrow: $periwinkle;
-$navbar-dropdown-border-top: 2px solid $mist;
+$primary: $coral;
+$primary-invert: $white;
+$secondary: $pink;
+$link: $secondary;
 
-// BAR
-$menu-label-color: $slate;
-$menu-item-color: $quartz;
-$menu-item-hover-color: $quartz;
-$menu-item-hover-background-color: lighten($koamaru, 5);
+// BRAND COLORS
 
-// TABS
-$tabs-border-bottom-color: $mist;
-$tabs-link-color: $quartz;
-$tabs-link-hover-color: $quartz;
-$tabs-link-hover-border-bottom-color: $periwinkle;
-$tabs-link-active-color: $indigo;
-$tabs-link-active-border-bottom-color: $indigo;
-$tabs-border-bottom-width: 2px;
+$facebook: #3b5998;
+$twitter: #1da1f2;
+$linkedin: #0077b5;
+$github: #333;
+$deviantart: #05cc47;
 
-// PROGRESS
-$progress-bar-background-color: $mist;
-$progress-value-background-color: $periwinkle;
+// VARIABLE OVERRIDES
+
+$navbar-height: 4.75rem;

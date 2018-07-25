@@ -6,6 +6,10 @@ import ReactDOM from 'react-dom';
 import 'bulma/css/bulma.min.css';
 import './css/main.css';
 import './css/linearicons.css';
+import './css/customicons.css';
+
+// JS
+import './lib/main.js';
 
 // COMPONENTS
 import App from './App';
