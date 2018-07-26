@@ -1,16 +1,19 @@
 // REACT
 import React from 'react';
 
+// JQUERY
+import $ from 'jquery';
+
 // ==========
 
-class Header extends React.Component {
+class Return extends React.Component {
   render () {
     return (
-      <a id="return">
+      <a id="return" onClick={() => {$('html, body').animate({scrollTop: 0}, 500)}}>
         <span className="lnr-chevron-up"></span>
       </a>
     );
   };
 };
 
-export default Header;
+export default Return;

@@ -1,25 +1,23 @@
 import $ from 'jquery';
-import 'jquery-ui';
 
-// ===== Mobile Menu =====
-document.addEventListener('DOMContentLoaded', function () {
+// ===== Bulma Mobile Menu =====
+document.addEventListener('DOMContentLoaded', () => {
 
   // Get all "navbar-burger" elements
-  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
   // Check if there are any navbar burgers
   if ($navbarBurgers.length > 0) {
 
     // Add a click event on each of them
-    $navbarBurgers.forEach(function ($el) {
-      $el.addEventListener('click', function () {
+    $navbarBurgers.forEach($element => {
+      $element.addEventListener('click', () => {
 
         // Get the target from the "data-target" attribute
-        var target = $el.dataset.target;
-        var $target = document.getElementById(target);
+        const $target = document.getElementById($element.dataset.target);
 
         // Toggle the class on both the "navbar-burger" and the "navbar-menu"
-        $el.classList.toggle('is-active');
+        $element.classList.toggle('is-active');
         $target.classList.toggle('is-active');
       });
     });
@@ -33,10 +31,6 @@ $(window).scroll(function () {
   } else {
     $('#return').fadeOut(500);
   }
-});
-
-$('#return').click(function () {
-  $('body,html').animate({ scrollTop: 0 }, 500);
 });
 
 // ===== Scroll Smoothing =====

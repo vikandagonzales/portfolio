@@ -1,50 +1,43 @@
 import $ from 'jquery';
-import 'jquery-ui';
 
-// ===== Mobile Menu =====
-document.addEventListener('DOMContentLoaded', function () {
+// ===== Bulma Mobile Menu =====
+document.addEventListener('DOMContentLoaded', () => {
 
   // Get all "navbar-burger" elements
-  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
   // Check if there are any navbar burgers
   if ($navbarBurgers.length > 0) {
 
     // Add a click event on each of them
-    $navbarBurgers.forEach(function ($el) {
-      $el.addEventListener('click', function () {
+    $navbarBurgers.forEach($element => {
+      $element.addEventListener('click', () => {
 
         // Get the target from the "data-target" attribute
-        var target = $el.dataset.target;
-        var $target = document.getElementById(target);
+        const $target = document.getElementById($element.dataset.target);
 
         // Toggle the class on both the "navbar-burger" and the "navbar-menu"
-        $el.classList.toggle('is-active');
+        $element.classList.toggle('is-active');
         $target.classList.toggle('is-active');
-
       });
     });
   }
 });
 
 // ===== Scroll to Top =====
-$(window).scroll(function() {
-    if ($(this).scrollTop() >= 50) {
-        $('#return').fadeIn(500);
-    } else {
-        $('#return').fadeOut(500);
-    }
-});
-
-$('#return').click(function() {
-  $('body,html').animate({scrollTop: 0}, 500);
+$(window).scroll(() => {
+  if ($(this).scrollTop() >= 50) {
+    $('#return').fadeIn(500);
+  } else {
+    $('#return').fadeOut(500);
+  }
 });
 
 // ===== Scroll Smoothing =====
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
+$(() => {
+  $('a[href*="#"]:not([href="#"])').click(() => {
     if (window.location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && window.location.hostname === this.hostname) {
-      var target = $(this.hash);
+      let target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html, body').animate({
@@ -57,55 +50,57 @@ $(function() {
 });
 
 // ===== Parallax Scroll =====
-$(window).scroll(function() {
-	var parallaxScroll = $(this).scrollTop();
+$(window).scroll(() => {
+	const parallaxScroll = $(this).scrollTop();
 	$('.parallax').css({
 		'transform' : 'translate(0px, ' + parallaxScroll/20 + '%)'
 	});
 });
 
 // ===== Skill Toggle =====
-$(document).ready(function() {
+$(document).ready(() => {
+
 	$('#design').click(
-    debounce(function() {
+    debounce(() => {
       $('#design .back').fadeToggle(200);
       $('#frontend .back, #backend .back').fadeOut(200);
-    },200)
+    }, 200);
   );
+
   $('#frontend').click(
-    debounce(function() {
+    debounce(() => {
       $('#frontend .back').fadeToggle(200);
       $('#design .back, #backend .back').fadeOut(200);
-    },200)
+    }, 200);
   );
+
   $('#backend').click(
-    debounce(function() {
+    debounce(() => {
       $('#backend .back').fadeToggle(200);
       $('#design .back, #frontend .back').fadeOut(200);
-    },200)
+    }, 200);
   );
-  $("#skills").click(
-    function() {
-      $('#design .back, #frontend .back, #backend .back').fadeOut(200);
-    }
-  );
-  $("#skills .skill-container").click(
-    function(e) {
-      e.stopPropagation();
-    }
-  );
+
+  $("#skills").click(() => {
+    $('#design .back, #frontend .back, #backend .back').fadeOut(200);
+  });
+
+  $("#skills .skill-container").click(event => {
+    event.stopPropagation();
+  });
+
 });
 
 // ===== Debouncer =====
-function debounce(cb, timeout) {
+const debounce = (cb, timeout) => {
   let lastrun;
-  return function (...args) {
+  return ((...args) => {
     if(lastrun === undefined) {
-      lastrun = Date.now()
-      cb(...args)
+      lastrun = Date.now();
+      cb(...args);
     } else if (Date.now() - lastrun > timeout) {
-      lastrun = Date.now()
-      cb(...args)
+      lastrun = Date.now();
+      cb(...args);
     }
-  }
-}
+  });
+};
