@@ -13,7 +13,7 @@ class Header extends React.Component {
           <div className="container">
             <div className="columns">
               <div className="column is-8-desktop is-offset-2-desktop has-text-centered">
-                <img className="logo" src="assets/brand/logo.svg" alt="Vikanda Gonzales" />
+                <img className="logo" src="./assets/brand/logo.svg" alt="Vikanda Gonzales" />
                 <h1 className="title is-2 is-spaced">
                   Hi, I'm Vikanda.
                 </h1>

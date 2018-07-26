@@ -1,6 +1,9 @@
 // REACT
 import React from 'react';
 
+// COMPONENTS
+import Socials from './Socials';
+
 // ==========
 
 class Contact extends React.Component {
@@ -20,43 +23,7 @@ class Contact extends React.Component {
                     </span>
                     <span>vikanda.gonzales@yahoo.com</span>
                   </a>
-                  <div className="field is-grouped">
-                    <p className="control">
-                      <a className="button facebook" href="https://www.facebook.com/vikanda" target="_blank" rel="noopener noreferrer">
-                        <span className="icon">
-                          <i className="fab fa-facebook-f" aria-hidden="true"></i>
-                        </span>
-                      </a>
-                    </p>
-                    <p className="control">
-                      <a className="button twitter" href="https://twitter.com/vikandagonzales" target="_blank" rel="noopener noreferrer">
-                        <span className="icon">
-                          <i className="fab fa-twitter" aria-hidden="true"></i>
-                        </span>
-                      </a>
-                    </p>
-                    <p className="control">
-                      <a className="button linkedin" href="https://www.linkedin.com/in/vikanda" target="_blank" rel="noopener noreferrer">
-                        <span className="icon">
-                          <i className="fab fa-linkedin-in" aria-hidden="true"></i>
-                        </span>
-                      </a>
-                    </p>
-                    <p className="control">
-                      <a className="button github" href="https://github.com/vikandagonzales" target="_blank" rel="noopener noreferrer">
-                        <span className="icon">
-                          <i className="fab fa-github" aria-hidden="true"></i>
-                        </span>
-                      </a>
-                    </p>
-                    <p className="control">
-                      <a className="button deviantart" href="https://vikanda.deviantart.com" target="_blank" rel="noopener noreferrer">
-                        <span className="icon">
-                          <i className="fab fa-deviantart" aria-hidden="true"></i>
-                        </span>
-                      </a>
-                    </p>
-                  </div>
+                  <Socials />
                 </div>
               </div>
             </div>
