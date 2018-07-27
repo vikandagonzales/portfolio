@@ -1,6 +1,9 @@
 // REACT
 import React from 'react';
 
+// DATA
+import about from '../db/about';
+
 // ==========
 
 class Header extends React.Component {
@@ -15,7 +18,7 @@ class Header extends React.Component {
               <div className="column is-8-desktop is-offset-2-desktop has-text-centered">
                 <img className="logo" src="./assets/brand/logo.svg" alt="Vikanda Gonzales" />
                 <h1 className="title is-2 is-spaced">
-                  Hi, I'm Vikanda.
+                  Hi, I'm {about.first_name}.
                 </h1>
                 <h2 className="subtitle is-4">
                   I'm a <strong>developer</strong> / <strong>designer</strong> who loves creating beautiful things.

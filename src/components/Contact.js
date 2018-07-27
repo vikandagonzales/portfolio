@@ -1,6 +1,9 @@
 // REACT
 import React from 'react';
 
+// DATA
+import about from '../db/about';
+
 // COMPONENTS
 import Socials from './Socials';
 
@@ -17,11 +20,11 @@ class Contact extends React.Component {
                 <div className="content has-text-centered">
                   <h1 className="title">Keep in Touch</h1>
                   <h3 className="title">For any inquiries, please email me at:</h3>
-                  <a className="email button is-light is-medium" href="mailto:vikanda.gonzales@gmail.com">
+                  <a className="email button is-light is-medium" href={`mailto:${about.email}`}>
                     <span className="icon is-small">
                       <i className="fas fa-envelope"></i>
                     </span>
-                    <span>vikanda.gonzales@gmail.com</span>
+                    <span>{about.email}</span>
                   </a>
                   <Socials color="color" />
                 </div>

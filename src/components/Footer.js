@@ -1,6 +1,9 @@
 // REACT
 import React from 'react';
 
+// DATA
+import about from '../db/about';
+
 // ==========
 
 class Footer extends React.Component {
@@ -12,7 +15,7 @@ class Footer extends React.Component {
             <div className="column is-8-desktop is-offset-2-desktop">
               <p>
                 <small>
-                  Copyright © 2018 Vikanda Gonzales
+                  Copyright © 2018 {about.first_name} {about.last_name}
                 </small>
               </p>
             </div>

@@ -17,7 +17,7 @@ class Skills extends React.Component {
                     <div className="skill front">
                       <span className="lnr-palette"></span>
                       <h2 className="title">
-                        Design &<br />Marketing
+                        UI/UX &<br />Graphic Design
                       </h2>
                     </div>
                     <div className="skill back">

@@ -1,6 +1,9 @@
 // REACT
 import React from 'react';
 
+// DATA
+import about from '../db/about';
+
 // ==========
 
 class About extends React.Component {
@@ -14,12 +17,12 @@ class About extends React.Component {
                 <div className="content">
                   <div className="columns is-6 is-variable">
                     <div className="profile column is-4">
-                      <img src="assets/photo.jpg" alt="Vikanda" />
+                      <img src={about.photo} alt={about.first_name} />
                     </div>
                     <div className="column is-8">
-                      <h1 className="title has-text-centered">Vikanda Gonzales</h1>
+                      <h1 className="title has-text-centered">{about.first_name} {about.last_name}</h1>
                       <p className="has-text-justified">
-                        I'm a full-stack developer, graphic and web designer, illustrator, linguist, polyglot, and gamer. I've spent most of my life moving between different countries. I started making websites when I was 11 in an attempt to cope with culture shock, and it turned into one of my most long-lived passions. When I'm not coding, I enjoy traveling, playing video and tabletop games, trying different food, playing the piano, and learning more languages.
+                        {about.bio}
                       </p>
                     </div>
                   </div>
