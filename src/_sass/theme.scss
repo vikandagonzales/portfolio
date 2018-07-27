@@ -49,28 +49,7 @@ a {
   a.button {
     border: 0;
 
-    &.facebook:hover {
-      background-color: $facebook;
-      color: $white;
-    }
-
-    &.twitter:hover {
-      background-color: $twitter;
-      color: $white;
-    }
-
-    &.linkedin:hover {
-      background-color: $linkedin;
-      color: $white;
-    }
-
-    &.github:hover {
-      background-color: $github;
-      color: $white;
-    }
-
-    &.deviantart:hover {
-      background-color: $deviantart;
+    &:hover {
       color: $white;
     }
   }
@@ -325,32 +304,12 @@ a {
       color: $primary;
       font-size: 2rem;
       padding: .75rem;
-
-      &.facebook:hover {
-        color: $facebook;
-      }
-
-      &.twitter:hover {
-        color: $twitter;
-      }
-
-      &.linkedin:hover {
-        color: $linkedin;
-      }
-
-      &.github:hover {
-        color: $github;
-      }
-
-      &.deviantart:hover {
-        color: $deviantart;
-      }
     }
   }
 }
 
 #return {
-  background: transparentize($black,.3);
+  background: transparentize($black, .3);
   border-radius: 50%;
   bottom: 20px;
   display: none;
@@ -371,7 +330,7 @@ a {
 }
 
   &:hover {
-    background: transparentize($black,.1);
+    background: transparentize($black, .1);
 
     span {
       top: 10px;

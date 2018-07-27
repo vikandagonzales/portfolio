@@ -6453,20 +6453,7 @@ a {
       opacity: 1; } }
   .navbar a.button {
     border: 0; }
-    .navbar a.button.facebook:hover {
-      background-color: #3b5998;
-      color: white; }
-    .navbar a.button.twitter:hover {
-      background-color: #1da1f2;
-      color: white; }
-    .navbar a.button.linkedin:hover {
-      background-color: #0077b5;
-      color: white; }
-    .navbar a.button.github:hover {
-      background-color: #333;
-      color: white; }
-    .navbar a.button.deviantart:hover {
-      background-color: #05cc47;
+    .navbar a.button:hover {
       color: white; }
   .navbar .field.is-grouped > .control:not(:last-child) {
     margin-right: .4rem; }
@@ -6634,16 +6621,6 @@ a {
     color: #e66262;
     font-size: 2rem;
     padding: .75rem; }
-    #contact .field.is-grouped a.facebook:hover {
-      color: #3b5998; }
-    #contact .field.is-grouped a.twitter:hover {
-      color: #1da1f2; }
-    #contact .field.is-grouped a.linkedin:hover {
-      color: #0077b5; }
-    #contact .field.is-grouped a.github:hover {
-      color: #333; }
-    #contact .field.is-grouped a.deviantart:hover {
-      color: #05cc47; }
 
 #return {
   background: rgba(10, 10, 10, 0.7);

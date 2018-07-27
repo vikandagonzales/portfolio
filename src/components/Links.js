@@ -4,22 +4,19 @@ import React from 'react';
 // DATA
 import links from '../db/links';
 
+// COMPONENTS
+import Link from './Link';
+
 // ==========
 
-class Socials extends React.Component {
+class Links extends React.Component {
   render () {
     return links.map(link => {
       return (
-        <a
-          className="navbar-item underline"
-          key={link.name}
-          href={link.href}
-        >
-          {link.name}
-        </a>
+        <Link key={link.name} link={link} />
       );
     });
   };
 };
 
-export default Socials;
+export default Links;

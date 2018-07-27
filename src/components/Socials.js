@@ -4,6 +4,9 @@ import React from 'react';
 // DATA
 import socials from '../db/socials';
 
+// COMPONENTS
+import Social from './Social';
+
 // ==========
 
 class Socials extends React.Component {
@@ -13,18 +16,7 @@ class Socials extends React.Component {
         {
           socials.map(social => {
             return (
-              <p key={social.name} className="control">
-                <a
-                  className={`button ${social.class}`}
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="icon">
-                    <i className={social.icon}></i>
-                  </span>
-                </a>
-              </p>
+              <Social key={social.name} social={social} color={this.props.color} />
             );
           })
         }

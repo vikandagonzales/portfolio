@@ -17,13 +17,13 @@ class Contact extends React.Component {
                 <div className="content has-text-centered">
                   <h1 className="title">Keep in Touch</h1>
                   <h3 className="title">For any inquiries, please email me at:</h3>
-                  <a className="email button is-light is-medium" href="mailto:vikanda.gonzales@yahoo.com">
+                  <a className="email button is-light is-medium" href="mailto:vikanda.gonzales@gmail.com">
                     <span className="icon is-small">
                       <i className="fas fa-envelope"></i>
                     </span>
-                    <span>vikanda.gonzales@yahoo.com</span>
+                    <span>vikanda.gonzales@gmail.com</span>
                   </a>
-                  <Socials />
+                  <Socials color="color" />
                 </div>
               </div>
             </div>

@@ -27,7 +27,7 @@ class Nav extends React.Component {
           </div>
           <div className="navbar-end is-hidden-touch">
             <div className="navbar-item">
-              <Socials />
+              <Socials color="backgroundColor" />
             </div>
           </div>
         </div>

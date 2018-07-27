@@ -2,33 +2,33 @@ const socials = [
   {
     name: 'Facebook',
     href: 'https://www.facebook.com/vikanda',
-    class: 'facebook',
-    icon: 'fab fa-facebook-f'
+    icon: 'fab fa-facebook-f',
+    color: '#3b5998'
   },
   {
     name: 'Twitter',
     href: 'https://twitter.com/vikandagonzales',
-    class: 'twitter',
-    icon: 'fab fa-twitter'
+    icon: 'fab fa-twitter',
+    color: '#1da1f2'
   },
   {
     name: 'LinkedIn',
     href: 'https://www.linkedin.com/in/vikanda',
-    class: 'linkedin',
-    icon: 'fab fa-linkedin-in'
+    icon: 'fab fa-linkedin-in',
+    color: '#0077b5'
   },
   {
     name: 'GitHub',
     href: 'https://github.com/vikandagonzales',
-    class: 'github',
-    icon: 'fab fa-github'
+    icon: 'fab fa-github',
+    color: '#333'
   },
   {
     name: 'DeviantART',
     href: 'https://vikanda.deviantart.com',
-    class: 'deviantart',
-    icon: 'fab fa-deviantart'
-  },
+    icon: 'fab fa-deviantart',
+    color: '#05cc47'
+  }
 ];
 
 export default socials;
