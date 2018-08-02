@@ -1,42 +1,55 @@
 const works = [
   {
-    name: 'D&D Character Builder'
+    name: 'D&D Character Builder',
+    compeleted: false
   },
   {
-    name: 'Devin & Samantha'
+    name: 'Devin & Samantha',
+    compeleted: true
   },
   {
-    name: 'Gonzales Music'
+    name: 'Gonzales Music',
+    compeleted: false
   },
   {
-    name: 'GuildHub'
+    name: 'GuildHub',
+    compeleted: false
   },
   {
-    name: 'Hourglass'
+    name: 'Hourglass',
+    compeleted: false
   },
   {
-    name: 'Meraki Design Studio'
+    name: 'Meraki Design Studio',
+    compeleted: true
   },
   {
-    name: 'Nino & Vanessa'
+    name: 'Nino & Vanessa',
+    compeleted: true
   },
   {
-    name: 'The Chobocobros'
+    name: 'The Chobocobros',
+    compeleted: true
   },
   {
-    name: 'Veil'
+    name: 'Veil',
+    compeleted: true
   },
   {
-    name: 'Veil Creations'
+    name: 'Veil Creations',
+    compeleted: true
   },
   {
-    name: 'Vintage Blossoms'
+    name: 'Vintage Blossoms',
+    compeleted: true
   },
   {
-    name: 'WrightStream'
+    name: 'WrightStream',
+    compeleted: false
   },
   {
-    name: 'Your Divine Addictions'
+    name: 'Your Divine Addictions',
+    compeleted: true
   }
 ];
 
