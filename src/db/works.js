@@ -4,6 +4,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
+    techs: [],
     compeleted: false
   },
   {
@@ -11,6 +12,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
+    techs: [],
     compeleted: true
   },
   {
@@ -18,6 +20,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
+    techs: [],
     compeleted: false
   },
   {
@@ -25,6 +28,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
+    techs: [],
     compeleted: false
   },
   {
@@ -32,6 +36,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
+    techs: [],
     compeleted: false
   },
   {
@@ -39,6 +44,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
+    techs: [],
     compeleted: true
   },
   {
@@ -46,6 +52,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
+    techs: [],
     compeleted: true
   },
   {
@@ -53,6 +60,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
+    techs: [],
     compeleted: true
   },
   {
@@ -60,6 +68,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
+    techs: [],
     compeleted: true
   },
   {
@@ -67,6 +76,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
+    techs: [],
     compeleted: true
   },
   {
@@ -74,6 +84,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
+    techs: [],
     compeleted: true
   },
   {
@@ -81,6 +92,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
+    techs: [],
     compeleted: false
   },
   {
@@ -88,6 +100,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
+    techs: [],
     compeleted: true
   }
 ];
