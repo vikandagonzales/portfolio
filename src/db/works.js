@@ -4,7 +4,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
-    techs: [],
+    techs: ['html'],
     description: '',
     compeleted: false
   },
@@ -22,7 +22,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
-    techs: [],
+    techs: ['html'],
     description: '',
     compeleted: false
   },
@@ -31,7 +31,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
-    techs: [],
+    techs: ['html'],
     description: '',
     compeleted: false
   },
@@ -58,7 +58,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
-    techs: [],
+    techs: ['html'],
     description: '',
     compeleted: true
   },
@@ -76,7 +76,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
-    techs: [],
+    techs: ['html'],
     description: '',
     compeleted: true
   },
@@ -85,7 +85,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
-    techs: [],
+    techs: ['html'],
     description: '',
     compeleted: true
   },
@@ -94,7 +94,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
-    techs: [],
+    techs: ['html'],
     description: '',
     compeleted: true
   },
@@ -103,7 +103,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
-    techs: [],
+    techs: ['html'],
     description: '',
     compeleted: false
   },
@@ -112,7 +112,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
-    techs: [],
+    techs: ['html'],
     description: '',
     compeleted: true
   }
