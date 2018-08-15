@@ -1,7 +1,7 @@
-const works = [
+const projects = [
   {
     name: 'D&D Character Builder',
-    thumbnail: '',
+    thumbnail: 'assets/projects/your-divine-addictions/0.png',
     photos: [],
     tags: [],
     techs: ['html'],
@@ -10,7 +10,7 @@ const works = [
   },
   {
     name: 'Devin & Samantha',
-    thumbnail: '',
+    thumbnail: 'assets/projects/devin-samantha/0.png',
     photos: [],
     tags: [],
     techs: [],
@@ -19,7 +19,7 @@ const works = [
   },
   {
     name: 'Gonzales Music',
-    thumbnail: '',
+    thumbnail: 'assets/projects/gonzales-music/0.png',
     photos: [],
     tags: [],
     techs: ['html'],
@@ -28,7 +28,7 @@ const works = [
   },
   {
     name: 'GuildHub',
-    thumbnail: '',
+    thumbnail: 'assets/projects/your-divine-addictions/0.png',
     photos: [],
     tags: [],
     techs: ['html'],
@@ -37,7 +37,7 @@ const works = [
   },
   {
     name: 'Hourglass',
-    thumbnail: '',
+    thumbnail: 'assets/projects/your-divine-addictions/0.png',
     photos: [],
     tags: [],
     techs: [],
@@ -46,7 +46,7 @@ const works = [
   },
   {
     name: 'Meraki Design Studio',
-    thumbnail: '',
+    thumbnail: 'assets/projects/meraki/0.png',
     photos: [],
     tags: [],
     techs: [],
@@ -55,7 +55,7 @@ const works = [
   },
   {
     name: 'Nino & Vanessa',
-    thumbnail: '',
+    thumbnail: 'assets/projects/nino-vanessa/0.png',
     photos: [],
     tags: [],
     techs: ['html'],
@@ -64,7 +64,7 @@ const works = [
   },
   {
     name: 'The Chobocobros',
-    thumbnail: '',
+    thumbnail: 'assets/projects/the-chobocobros/0.png',
     photos: [],
     tags: [],
     techs: [],
@@ -72,8 +72,8 @@ const works = [
     compeleted: true
   },
   {
-    name: 'Veil',
-    thumbnail: '',
+    name: 'Veil Guild',
+    thumbnail: 'assets/projects/veil-guild/0.png',
     photos: [],
     tags: [],
     techs: ['html', 'css'],
@@ -82,7 +82,7 @@ const works = [
   },
   {
     name: 'Veil Creations',
-    thumbnail: '',
+    thumbnail: 'assets/projects/veil-creations/0.png',
     photos: [],
     tags: [],
     techs: ['html', 'css'],
@@ -91,7 +91,7 @@ const works = [
   },
   {
     name: 'Vintage Blossoms',
-    thumbnail: '',
+    thumbnail: 'assets/projects/vintage-blossoms/0.png',
     photos: [],
     tags: [],
     techs: ['html', 'css'],
@@ -100,7 +100,7 @@ const works = [
   },
   {
     name: 'WrightStream',
-    thumbnail: '',
+    thumbnail: 'assets/projects/your-divine-addictions/0.png',
     photos: [],
     tags: [],
     techs: ['html'],
@@ -109,7 +109,7 @@ const works = [
   },
   {
     name: 'Your Divine Addictions',
-    thumbnail: '',
+    thumbnail: 'assets/projects/your-divine-addictions/0.png',
     photos: [],
     tags: [],
     techs: ['html'],
@@ -118,4 +118,4 @@ const works = [
   }
 ];
 
-export default works;
+export default projects;
