@@ -6579,9 +6579,11 @@ a {
     display: inline-block;
     font-size: 5rem; }
   #skills .skill .field.is-grouped {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center; }
     #skills .skill .field.is-grouped p.control {
-      margin: .1rem 0; }
+      margin: .5rem 0; }
     #skills .skill .field.is-grouped a {
       background: none;
       border: 0;

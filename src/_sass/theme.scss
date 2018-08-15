@@ -235,10 +235,12 @@ a {
     }
 
     .field.is-grouped {
+      display: flex;
+      flex-wrap: wrap;
       justify-content: center;
 
       p.control {
-        margin: .1rem 0;
+        margin: .5rem 0;
       }
 
       a {

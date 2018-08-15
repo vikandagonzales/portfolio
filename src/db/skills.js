@@ -1,21 +1,37 @@
 const skills = [
   {
     name: 'Design',
-    icon: '',
+    icon: 'lnr-palette',
     tools: [
       {
         name: 'Adobe Photoshop',
-        icon: ''
+        icon: 'icon-adobe-photoshop'
       },
       {
         name: 'Adobe Illustrator',
-        icon: ''
+        icon: 'icon-adobe-illustrator'
+      },
+      {
+        name: 'Adobe InDesign',
+        icon: 'icon-adobe-indesign'
+      },
+      {
+        name: 'Adobe Animate',
+        icon: 'icon-adobe-animate'
+      },
+      {
+        name: 'Adobe Premiere Pro',
+        icon: 'icon-adobe-premiere'
+      },
+      {
+        name: 'Invision',
+        icon: 'icon-invision'
       }
     ]
   },
   {
     name: 'Development',
-    icon: '',
+    icon: 'lnr-code',
     tools: [
       {
         name: 'HTML',
@@ -35,11 +51,11 @@ const skills = [
       },
       {
         name: 'JSON',
-        icon: ''
+        icon: 'icon-json'
       },
       {
         name: 'jQuery',
-        icon: ''
+        icon: 'icon-jquery'
       },
       {
         name: 'React',
@@ -59,15 +75,15 @@ const skills = [
       },
       {
         name: 'Bootstrap',
-        icon: ''
+        icon: 'icon-bootstrap'
       },
       {
         name: 'Foundation',
-        icon: ''
+        icon: 'icon-foundation'
       },
       {
         name: 'Bulma',
-        icon: ''
+        icon: 'icon-bulma'
       },
       {
         name: 'Wordpress',
@@ -75,11 +91,11 @@ const skills = [
       },
       {
         name: 'PHP',
-        icon: ''
+        icon: 'icon-php'
       },
       {
         name: 'Ajax',
-        icon: ''
+        icon: 'icon-ajax'
       },
       {
         name: 'Axios',
@@ -95,25 +111,21 @@ const skills = [
       },
       {
         name: 'Knex.js',
-        icon: ''
+        icon: 'icon-knexjs'
       },
       {
         name: 'PostgreSQL',
-        icon: ''
+        icon: 'icon-postgresql'
       },
       {
         name: 'MySQL',
-        icon: ''
-      },
-      {
-        name: 'Git',
-        icon: ''
+        icon: 'icon-mysql'
       }
     ]
   },
   {
-    name: 'Other Tools',
-    icon: '',
+    name: 'Tools',
+    icon: 'lnr-wrench',
     tools: [
       {
         name: 'Git',
@@ -125,19 +137,23 @@ const skills = [
       },
       {
         name: 'MailChimp',
-        icon: ''
+        icon: 'icon-mailchimp'
       },
       {
         name: 'HootSuite',
-        icon: ''
+        icon: 'icon-hootsuite'
       },
       {
         name: 'Buffer',
-        icon: ''
+        icon: 'icon-buffer'
       },
       {
         name: 'HotJar',
         icon: ''
+      },
+      {
+        name: 'Zapier',
+        icon: 'icon-zapier'
       }
     ]
   }
