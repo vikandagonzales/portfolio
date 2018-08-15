@@ -94,7 +94,7 @@ const works = [
     thumbnail: '',
     photos: [],
     tags: [],
-    techs: ['html'],
+    techs: ['html', 'css'],
     description: '',
     compeleted: true
   },
