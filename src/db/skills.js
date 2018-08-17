@@ -1,6 +1,6 @@
 const skills = [
   {
-    name: 'Design',
+    name: 'Design & Marketing',
     icon: 'lnr-palette',
     tools: [
       {
@@ -30,8 +30,8 @@ const skills = [
     ]
   },
   {
-    name: 'Development',
-    icon: 'lnr-code',
+    name: 'Front-end Development',
+    icon: 'lnr-desktop',
     tools: [
       {
         name: 'HTML',
@@ -124,8 +124,8 @@ const skills = [
     ]
   },
   {
-    name: 'Tools',
-    icon: 'lnr-wrench',
+    name: 'Back-end Development',
+    icon: 'lnr-server',
     tools: [
       {
         name: 'Git',
