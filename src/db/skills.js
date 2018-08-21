@@ -26,6 +26,30 @@ const skills = [
       {
         name: 'Invision',
         icon: 'icon-invision'
+      },
+      {
+        name: 'Hubspot',
+        icon: ''
+      },
+      {
+        name: 'MailChimp',
+        icon: 'icon-mailchimp'
+      },
+      {
+        name: 'HootSuite',
+        icon: 'icon-hootsuite'
+      },
+      {
+        name: 'Buffer',
+        icon: 'icon-buffer'
+      },
+      {
+        name: 'HotJar',
+        icon: ''
+      },
+      {
+        name: 'Zapier',
+        icon: 'icon-zapier'
       }
     ]
   },
@@ -48,10 +72,6 @@ const skills = [
       {
         name: 'JavaScript',
         icon: ''
-      },
-      {
-        name: 'JSON',
-        icon: 'icon-json'
       },
       {
         name: 'jQuery',
@@ -92,13 +112,15 @@ const skills = [
       {
         name: 'PHP',
         icon: 'icon-php'
-      },
+      }
+    ]
+  },
+  {
+    name: 'Back-end Development',
+    icon: 'lnr-server',
+    tools: [
       {
-        name: 'Ajax',
-        icon: 'icon-ajax'
-      },
-      {
-        name: 'Axios',
+        name: 'Git',
         icon: ''
       },
       {
@@ -120,40 +142,6 @@ const skills = [
       {
         name: 'MySQL',
         icon: 'icon-mysql'
-      }
-    ]
-  },
-  {
-    name: 'Back-end Development',
-    icon: 'lnr-server',
-    tools: [
-      {
-        name: 'Git',
-        icon: ''
-      },
-      {
-        name: 'Hubspot',
-        icon: ''
-      },
-      {
-        name: 'MailChimp',
-        icon: 'icon-mailchimp'
-      },
-      {
-        name: 'HootSuite',
-        icon: 'icon-hootsuite'
-      },
-      {
-        name: 'Buffer',
-        icon: 'icon-buffer'
-      },
-      {
-        name: 'HotJar',
-        icon: ''
-      },
-      {
-        name: 'Zapier',
-        icon: 'icon-zapier'
       }
     ]
   }
