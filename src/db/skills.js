@@ -82,10 +82,6 @@ const skills = [
         icon: ''
       },
       {
-        name: 'React Router',
-        icon: ''
-      },
-      {
         name: 'Redux',
         icon: ''
       },
