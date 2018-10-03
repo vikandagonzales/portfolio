@@ -1,6 +1,9 @@
 // REACT
 import React from 'react';
 
+// DATA
+import about from '../db/about';
+
 // COMPONENTS
 import Links from './Links';
 import Socials from './Socials';
@@ -13,7 +16,7 @@ class Nav extends React.Component {
       <nav className="navbar">
         <div className="navbar-brand">
           <a className="navbar-item" href="#home">
-            <img src="./assets/brand/logo.svg" alt="Vikanda Gonzales" />
+            <img src="./assets/brand/logo.svg" alt={`${about.first_name} ${about.last_name}`} />
           </a>
           <div className="navbar-burger" data-target="navMenu">
             <span></span>
