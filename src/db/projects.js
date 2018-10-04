@@ -4,7 +4,7 @@ const projects = [
     thumbnail: 'assets/projects/your-divine-addictions/0.png',
     photos: [],
     tags: [],
-    techs: ['html'],
+    techs: ['html', 'css'],
     description: '',
     compeleted: false
   },
@@ -22,7 +22,7 @@ const projects = [
     thumbnail: 'assets/projects/gonzales-music/0.png',
     photos: [],
     tags: [],
-    techs: ['html'],
+    techs: ['html', 'css'],
     description: '',
     compeleted: false
   },
@@ -58,7 +58,7 @@ const projects = [
     thumbnail: 'assets/projects/nino-vanessa/0.png',
     photos: [],
     tags: [],
-    techs: ['html'],
+    techs: ['html', 'css'],
     description: '',
     compeleted: true
   },
@@ -103,7 +103,7 @@ const projects = [
     thumbnail: 'assets/projects/your-divine-addictions/0.png',
     photos: [],
     tags: [],
-    techs: ['html'],
+    techs: ['html', 'css'],
     description: '',
     compeleted: false
   },
@@ -112,7 +112,7 @@ const projects = [
     thumbnail: 'assets/projects/your-divine-addictions/0.png',
     photos: [],
     tags: [],
-    techs: ['html'],
+    techs: ['html', 'css'],
     description: '',
     compeleted: true
   }

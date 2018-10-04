@@ -8,7 +8,9 @@ class Skill extends React.Component {
     return (
       <div className="column is-4-desktop">
         <div id="design" className="skill-container">
-          <a className="info"><span className="lnr-layers"></span></a>
+          <a className="info">
+            <span className="lnr-layers"></span>
+          </a>
           <div className="skill front">
             <span className={this.props.skill.icon}></span>
             <h2 className="title">
