@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vikandagonzales/portfolio.git"
+    "url": "git+https://github.com/vikandaobrien/portfolio.git"
   },
   "keywords": [
     "html",
@@ -29,12 +29,12 @@
     "redux",
     "bulma"
   ],
-  "author": "Vikanda Gonzales <vikanda.gonzales@gmail.com>",
+  "author": "Vikanda O'Brien <vikanda.obrien@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vikandagonzales/portfolio/issues"
+    "url": "https://github.com/vikandaobrien/portfolio/issues"
   },
-  "homepage": "https://github.com/vikandagonzales/portfolio#readme",
+  "homepage": ".",
   "dependencies": {
     "bulma": "^0.7.1",
     "jquery": "^3.3.1",
@@ -46,7 +46,7 @@
     "autoprefixer": "^9.0.1",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.14.1",
     "postcss-cli": "^6.0.0"
   }
 }

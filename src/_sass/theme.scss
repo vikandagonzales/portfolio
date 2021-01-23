@@ -259,6 +259,10 @@ a {
 
 #portfolio {
 
+  &.is-dark h3 {
+    color: $white-bis;
+  }
+
   .columns {
     flex-wrap: wrap;
 

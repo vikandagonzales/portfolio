@@ -5,7 +5,7 @@ import React from 'react';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
-import Skills from './components/Skills';
+// import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Return from './components/Return';
@@ -20,7 +20,7 @@ class App extends React.Component {
         <Header />
         <Nav />
         <About />
-        <Skills />
+        {/* <Skills /> */}
         <Portfolio />
         <Contact />
         <Return />

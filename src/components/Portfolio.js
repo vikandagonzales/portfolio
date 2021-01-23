@@ -16,6 +16,7 @@ class Portfolio extends React.Component {
         <div className="hero-body">
           <div className="container">
             <div className="content">
+              <h3 className="has-text-centered">My portfolio is under construction! Avert your eyes!</h3>
               <div className="columns has-text-centered">
                 {
                   projects.map(project => {

@@ -7,7 +7,7 @@ const socials = [
   },
   {
     name: 'Twitter',
-    href: 'https://twitter.com/vikandagonzales',
+    href: 'https://twitter.com/vikandaobrien',
     icon: 'fab fa-twitter',
     color: '#1da1f2'
   },
@@ -19,7 +19,7 @@ const socials = [
   },
   {
     name: 'GitHub',
-    href: 'https://github.com/vikandagonzales',
+    href: 'https://github.com/vikandaobrien',
     icon: 'fab fa-github',
     color: '#333'
   },

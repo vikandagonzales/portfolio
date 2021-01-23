@@ -1,7 +1,7 @@
 const projects = [
   {
-    name: 'D&D Character Builder',
-    thumbnail: 'assets/projects/your-divine-addictions/0.png',
+    name: 'Adventure',
+    thumbnail: 'assets/projects/adventure/0.png',
     photos: [],
     tags: [],
     techs: ['html', 'css'],
@@ -9,14 +9,32 @@ const projects = [
     compeleted: false
   },
   {
-    name: 'Devin & Samantha',
-    thumbnail: 'assets/projects/devin-samantha/0.png',
+    name: 'D&D Character Builder',
+    thumbnail: 'assets/projects/character-builder/0.png',
     photos: [],
     tags: [],
-    techs: [],
+    techs: ['html', 'css'],
     description: '',
-    compeleted: true
+    compeleted: false
   },
+  {
+    name: 'Elicit Wine',
+    thumbnail: 'assets/projects/elicit/0.png',
+    photos: [],
+    tags: [],
+    techs: ['html', 'css'],
+    description: '',
+    compeleted: false
+  },
+  // {
+  //   name: 'Devin & Samantha',
+  //   thumbnail: 'assets/projects/devin-samantha/0.png',
+  //   photos: [],
+  //   tags: [],
+  //   techs: [],
+  //   description: '',
+  //   compeleted: true
+  // },
   {
     name: 'Gonzales Music',
     thumbnail: 'assets/projects/gonzales-music/0.png',
@@ -28,7 +46,7 @@ const projects = [
   },
   {
     name: 'GuildHub',
-    thumbnail: 'assets/projects/your-divine-addictions/0.png',
+    thumbnail: 'assets/projects/guildhub/0.png',
     photos: [],
     tags: [],
     techs: ['html', 'css'],
@@ -37,7 +55,7 @@ const projects = [
   },
   {
     name: 'Hourglass',
-    thumbnail: 'assets/projects/your-divine-addictions/0.png',
+    thumbnail: 'assets/projects/hourglass/0.png',
     photos: [],
     tags: [],
     techs: [],
@@ -71,15 +89,15 @@ const projects = [
     description: '',
     compeleted: true
   },
-  {
-    name: 'Veil Guild',
-    thumbnail: 'assets/projects/veil-guild/0.png',
-    photos: [],
-    tags: [],
-    techs: ['html', 'css'],
-    description: '',
-    compeleted: true
-  },
+  // {
+  //   name: 'Veil Guild',
+  //   thumbnail: 'assets/projects/veil-guild/0.png',
+  //   photos: [],
+  //   tags: [],
+  //   techs: ['html', 'css'],
+  //   description: '',
+  //   compeleted: true
+  // },
   {
     name: 'Veil Creations',
     thumbnail: 'assets/projects/veil-creations/0.png',
@@ -89,18 +107,18 @@ const projects = [
     description: '',
     compeleted: true
   },
-  {
-    name: 'Vintage Blossoms',
-    thumbnail: 'assets/projects/vintage-blossoms/0.png',
-    photos: [],
-    tags: [],
-    techs: ['html', 'css'],
-    description: '',
-    compeleted: true
-  },
+  // {
+  //   name: 'Vintage Blossoms',
+  //   thumbnail: 'assets/projects/vintage-blossoms/0.png',
+  //   photos: [],
+  //   tags: [],
+  //   techs: ['html', 'css'],
+  //   description: '',
+  //   compeleted: true
+  // },
   {
     name: 'WrightStream',
-    thumbnail: 'assets/projects/your-divine-addictions/0.png',
+    thumbnail: 'assets/projects/wrightstream/0.png',
     photos: [],
     tags: [],
     techs: ['html', 'css'],

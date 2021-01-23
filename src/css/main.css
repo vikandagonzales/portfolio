@@ -6592,6 +6592,9 @@ a {
     #skills .skill .field.is-grouped span {
       font-size: 2rem; }
 
+#portfolio.is-dark h3 {
+  color: #fafafa; }
+
 #portfolio .columns {
   flex-wrap: wrap; }
   @media (min-width: 769px) {
